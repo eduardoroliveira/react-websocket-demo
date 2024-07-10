@@ -36,3 +36,6 @@ npm run dev
 1. Notice the list of animals
 1. Open the devtools, go to network, filter by WS type and observe that the data is pushed from the backend to the browser only when there is some change (by executing the next step).
 1. Execute the command `change-data.[sh|cmd] [1|2|3]` in the server project that you're running, to change the data to 1, 2 or 3 animals.
+
+![image](https://github.com/eduardoroliveira/react-websocket-demo/assets/13936435/30aeb77d-6a95-4ddf-9f49-46cd36c97031)
+
