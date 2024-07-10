@@ -66,3 +66,20 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.animalCard {
+  align-content: center;
+  background-color: silver;
+  border-radius: 1rem;
+  color: darkblue;
+  display: flexbox;
+  font-size: 35pt;
+  font-weight: bolder;
+  height: 25rem;
+  margin-right: 2rem;
+  width: 25rem;
+}
+
+.animalCardContainer {
+  display: flex;
+}

@@ -23,15 +23,13 @@ function App() {
     };
   }, []);
   return (
-    <>
-      <ul>
-        {animals?.map((animal) => (
-          <li key={animal.name} style={{ textAlign: "left" }}>
-            {animal.name}
-          </li>
-        ))}
-      </ul>
-    </>
+    <div className="animalCardContainer">
+      {animals?.map((animal) => (
+        <div className="animalCard" key={animal.name}>
+          {animal.name}
+        </div>
+      ))}
+    </div>
   );
 }
 
